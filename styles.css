@@ -129,9 +129,8 @@ li {
 #main-content {
   background-color: #a9b1b900;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: repeat(auto-fill, 200px);
-  /* grid-template-rows: repeat(2, 250px); */
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(auto-fit, 200px);
   gap: 30px;
 }
 
