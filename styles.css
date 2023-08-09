@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#full-page {
+  height: 100vh;
+  max-height: auto;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+#sidebar {
+  grid-column: 1;
+  grid-row: 1 / -1;
+  background-color: #61677A;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
+
+li {
+  padding-bottom: 30px;
+  min-width: 86.594px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+#sidebar a:visited {
+  color: white;
+}
+
+#sidebar ion-icon {
+  margin-right: 8px;
+
+  transform: translateY(1.5px);
+}
+
+#user-label, #greeting-label {
+  border: 8px solid #2984eb;
+  background-color: #2984eb;
+  color: white;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+  margin-right: 15px;
+}
+
+#user-name {
+  min-width: 71.45px;
+}
+
+#top-half, #bottom-half, #greeting, #profile-menu, #search-container {
+  display: flex;
+}
+
+
+
+#search-container {
+  align-items: center;
+}
+
+#search {
+  width: 250px;
+  height: 23px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+#search-container ion-icon {
+  font-size: 20px;
+  transform: translateY(1.5px);
+}
+
+#bottom-half {
+  margin-top: 15px;
+  margin-bottom: -10px;
+}
+
+#top-half, #bottom-half {
+  justify-content: space-between;
+}
+
+#profile-menu, #bottom-half {
+  align-items: center;
+}
+
+#greeting-container {
+  font-weight: bold;
+  font-size: larger;
+}
+
+#header {
+  background-color: #D8D9DA;
+  padding: 20px;
+}
+
+#greeting-label {
+  border-width: 12px;
+  font-size: 20px;
+}
+
+#button-new {
+  border: none;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgb(75, 72, 72);
+  color: white;
+}
+
+#greeting {
+  justify-content: space-between;
+}
+
+#main-content {
+  background-color: #272829;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 10px;
+  height: 100%;
+}
+
+.card {
+  background-color: rgb(104, 124, 148);
+  padding: 10px;
+}
+
+#main-content-wrapper {
+  display: grid;
+  justify-items: center;
+  padding: 10px;
+  background-color: #272829;
+}
